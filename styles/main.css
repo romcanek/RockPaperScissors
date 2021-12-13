@@ -1,0 +1,53 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.buttons button {
+  border: none;
+  font-size: 8rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+}
+.buttons button:hover {
+  transform: scale(1.2);
+}
+
+.results {
+  width: 100vw;
+  margin-top: 1em;
+  display: flex;
+  justify-items: center;
+  align-items: flex-start;
+  font-size: 2rem;
+}
+.result-score {
+  font-size: 1.5rem;
+  color: rgb(94, 94, 94);
+}
+.player {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.player ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.player ul .final-result {
+  margin-bottom: 1.5em;
+}
+
+.final-result {
+  opacity: 0.5;
+}
+.winner {
+  opacity: 1;
+}
